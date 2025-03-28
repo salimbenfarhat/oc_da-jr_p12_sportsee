@@ -1,7 +1,7 @@
 {
   "name": "sportsee-backend",
   "version": "1.0.0",
-  "description": "Backend for the 9th project of the new path Front-end Developper",
+  "description": "Backend for sportsee project",
   "main": "app/index.js",
   "repository": "https://github.com/salimbenfarhat/oc_da-jr_p12_sportsee.git",
   "author": "salimbenfarhat <info@salim.link>",

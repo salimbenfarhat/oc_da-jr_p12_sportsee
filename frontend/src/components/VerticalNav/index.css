@@ -1,0 +1,33 @@
+.vertical-nav {
+  display: flex;
+  flex-direction: column;
+  gap: 33px;
+}
+
+.vertical-nav-links {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.vertical-nav-links li img {
+  height: 60px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.vertical-nav-links li img:hover {
+  transform: scale(1.1);
+}
+
+.vertical-nav-copyright {
+  color: var(--color-white);
+  font-size: var(--font-size-small);
+  text-align: center;
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+  margin-bottom: 30px;
+}

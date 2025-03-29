@@ -1,23 +1,54 @@
-.App {
-  text-align: center;
+/* Styles pour l'application principale */
+.app {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  font-family: "Roboto", sans-serif;
 }
 
-.App-logo {
-  height: 20vmin;
-  pointer-events: none;
+/* Section principale contenant la navigation verticale et le tableau de bord */
+.main-content {
+  margin-top: 80px; 
+  margin-left: 80px;
+  display: flex; 
+  flex: 1;
+  background-color: var(--color-white);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* Barre de navigation verticale */
+aside {
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 0;
+  background-color: var(--color-black);
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: flex-end;
+  gap: 23vh;
+  height: auto;
+  min-height: 100vh;
+  width: 90px;
 }
 
-.App-link {
-  color: #61dafb;
+/* Section du tableau de bord */
+.dashboard-section {
+  flex: 1;
+  padding: 20px;
+  background-color: var(--color-white);
+}
+
+/* Styles pour le message d'écran trop petit */
+.screen-too-small {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  background-color: var(--color-black);
+  color: var(--color-white);
+  font-size: var(--font-size-regular);
+  text-align: center;
+  padding: 20px;
 }

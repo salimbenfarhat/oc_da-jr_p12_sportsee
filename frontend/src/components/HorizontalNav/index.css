@@ -1,0 +1,35 @@
+.horizontal-nav {
+  background-color: var(--color-black);
+  box-shadow: 0 4px 4px var(--color-black);
+  display: flex;
+  justify-content: space-between;
+  padding: 0.8rem 0.4rem;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+}
+
+.horizontal-nav-logo {
+  height: 60px;
+  padding: 0 1.2rem;
+}
+
+.horizontal-nav-links {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 80%;
+}
+
+.horizontal-nav-links a {
+  color: var(--color-white);
+  font-weight: var(--font-weight-medium);
+  font-size: var(--font-size-large);
+  text-decoration: none;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.horizontal-nav-links a:hover {
+  color: var(--color-secondary);
+}

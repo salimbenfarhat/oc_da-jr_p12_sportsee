@@ -1,0 +1,23 @@
+.dashboard-header {
+  margin-bottom: 20px;
+  text-align: left;
+  font-weight: var(--font-weight-bold);
+}
+
+.dashboard-header h1 {
+  font-size: 3rem;
+  font-weight: var(--font-weight-bold);
+  color: var(--color-quaternary);
+  line-height: 1;
+  margin-bottom: 0;
+}
+
+.dashboard-header .user-name {
+  color: var(--color-secondary);
+}
+
+.dashboard-header p {
+  font-size: 1rem;
+  font-weight: var(--font-weight-regular);
+  color: var(--color-quaternary);
+}
